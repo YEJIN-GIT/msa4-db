@@ -13,6 +13,7 @@ CREATE TABLE users (
   ,updated_at   DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP()
   ,deleted_at   DATETIME
 );
+-- 스크립트 실행시 NOW() 는 '2026-04-30' 같은 값이 들어가므로 주의!!
 
 -- 게시글 테이블
 -- pk, 유저번호, 제목, 내용, 작성일, 수정일, 삭제일
